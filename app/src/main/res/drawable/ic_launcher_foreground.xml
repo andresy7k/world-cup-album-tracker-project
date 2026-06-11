@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group android:scaleX="0.55" android:scaleY="0.55" android:pivotX="54" android:pivotY="54">
+        <!-- Copa -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M42,38 L66,38 L66,54 C66,64 60,70 54,70 C48,70 42,64 42,54 Z" />
+        <path
+            android:pathData="M42,42 C34,42 32,54 40,57"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M66,42 C74,42 76,54 68,57"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M50,70 L58,70 L58,80 L50,80 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M44,80 L64,80 L64,86 L44,86 Z" />
+        <!-- Estrella central -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M54,44 L56.5,51 L64,51 L58,55.5 L60,62.5 L54,58 L48,62.5 L50,55.5 L44,51 L51.5,51 Z" />
+    </group>
+</vector>

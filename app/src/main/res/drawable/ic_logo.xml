@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Anillo de progreso exterior (acento dorado) -->
+    <path
+        android:pathData="M60,8 A52,52 0 1,1 59.99,8"
+        android:strokeColor="#FFD54F"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Cuerpo de la copa -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,34 L76,34 L76,52 C76,64 68,72 60,72 C52,72 44,64 44,52 Z" />
+
+    <!-- Asa izquierda -->
+    <path
+        android:pathData="M44,38 C34,38 32,52 42,56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <!-- Asa derecha -->
+    <path
+        android:pathData="M76,38 C86,38 88,52 78,56"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round" />
+
+    <!-- Base / pie -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M56,72 L64,72 L64,82 L56,82 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,82 L72,82 L72,88 L48,88 Z" />
+
+    <!-- Lámina/estrella en el centro (acento rosa) -->
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M60,42 L62.5,49 L70,49 L64,53.5 L66,60.5 L60,56 L54,60.5 L56,53.5 L50,49 L57.5,49 Z" />
+</vector>

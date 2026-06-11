@@ -1,0 +1,119 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">World Cup Album Tracker 2026</string>
+    <string name="app_name_short">Album Tracker</string>
+    <string name="app_tagline">Completa tu Mundial 2026</string>
+
+    <!-- Navegación -->
+    <string name="nav_dashboard">Inicio</string>
+    <string name="nav_album">Álbum</string>
+    <string name="nav_search">Buscar</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Mi Álbum</string>
+    <string name="dashboard_progress">Progreso del álbum</string>
+    <string name="dashboard_obtained">Obtenidas</string>
+    <string name="dashboard_missing">Faltantes</string>
+    <string name="dashboard_repeated">Repetidas</string>
+    <string name="dashboard_completed">%1$d%% completado</string>
+    <string name="dashboard_recent">Últimas láminas agregadas</string>
+    <string name="dashboard_quick_actions">Acciones rápidas</string>
+
+    <!-- Álbum / filtros -->
+    <string name="album_title">Álbum completo</string>
+    <string name="filter_all">Todas</string>
+    <string name="tab_album">Álbum</string>
+    <string name="tab_obtained">Obtenidas</string>
+    <string name="tab_missing">Pendientes</string>
+    <string name="tab_repeated">Repetidas</string>
+
+    <!-- Sticker -->
+    <string name="sticker_number">N° %1$d</string>
+    <string name="sticker_repeated_count">x%1$d repetidas</string>
+    <string name="register_sticker">Registrar lámina</string>
+    <string name="register_title">Registrar nueva lámina</string>
+    <string name="swipe_to_register">Desliza para registrar</string>
+    <string name="swipe_to_confirm_trade">Desliza para confirmar intercambio</string>
+
+    <!-- Intercambio -->
+    <string name="trade_title">Intercambiar lámina</string>
+    <string name="trade_given">Lámina entregada</string>
+    <string name="trade_received">Lámina recibida</string>
+    <string name="trade_history">Historial de intercambios</string>
+    <string name="trade_date">Fecha</string>
+
+    <!-- Buscador de jugadores -->
+    <string name="search_title">Buscar jugador</string>
+    <string name="search_hint">Ej: Cristiano Ronaldo</string>
+    <string name="player_nationality">Nacionalidad</string>
+    <string name="player_team">Equipo</string>
+    <string name="player_position">Posición</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_title">Estadísticas</string>
+    <string name="stats_top_countries">Selecciones más completadas</string>
+
+    <!-- Ajustes -->
+    <string name="settings_title">Ajustes</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_reset">Reiniciar álbum</string>
+    <string name="settings_version">Versión 1.0</string>
+
+    <!-- Estados / errores -->
+    <string name="state_loading">Cargando…</string>
+    <string name="error_no_internet">Sin conexión a internet</string>
+    <string name="error_no_results">No se encontraron resultados</string>
+    <string name="error_server">Error del servidor. Intenta más tarde</string>
+    <string name="error_timeout">La conexión tardó demasiado</string>
+    <string name="error_generic">Algo salió mal</string>
+
+    <!-- Empty states -->
+    <string name="empty_obtained">Aún no tienes láminas obtenidas</string>
+    <string name="empty_missing">¡Felicidades! No te falta ninguna lámina</string>
+    <string name="empty_repeated">No tienes láminas repetidas</string>
+    <string name="empty_trades">Todavía no has registrado intercambios</string>
+    <string name="empty_search">Busca a tu jugador favorito del Mundial</string>
+
+    <!-- Acciones -->
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_delete">Eliminar</string>
+
+    <!-- Splash -->
+    <string name="splash_tagline">Completa tu álbum del Mundial 2026</string>
+
+    <!-- Registrar lámina -->
+    <string name="register_number_hint">Número de lámina</string>
+    <string name="register_invalid_number">Ingresa un número de lámina válido</string>
+    <string name="register_not_found">No existe una lámina con ese número</string>
+    <string name="register_status_new">Lámina nueva</string>
+    <string name="register_status_owned">Ya la tienes (se sumará a repetidas)</string>
+    <string name="register_added_new">¡Lámina N° %1$d registrada!</string>
+    <string name="register_added_repeated">Lámina N° %1$d sumada a repetidas</string>
+
+    <!-- Intercambio (extra) -->
+    <string name="trade_intro">Indica la lámina repetida que entregas y la lámina que recibes a cambio.</string>
+    <string name="trade_hint">Solo puedes entregar láminas de las que tengas repetidas. La lámina recibida se marcará como obtenida automáticamente.</string>
+    <string name="trade_invalid_numbers">Ingresa ambos números de lámina</string>
+    <string name="trade_success">¡Intercambio registrado con éxito!</string>
+    <string name="trade_deleted">Intercambio eliminado</string>
+    <string name="trade_given_short">Entrega:</string>
+    <string name="trade_received_short">Recibe:</string>
+
+    <!-- Buscador (extra) -->
+    <string name="player_field">%1$s: %2$s</string>
+
+    <!-- Estadísticas (extra) -->
+    <string name="stats_total">Total</string>
+    <string name="stats_percent_value">%1$d%%</string>
+
+    <!-- Ajustes (extra) -->
+    <string name="settings_about_text">World Cup Album Tracker 2026\n\nAplicación para administrar y completar tu álbum de láminas del Mundial 2026: registra láminas, gestiona repetidas, realiza intercambios y consulta tus estadísticas.\n\nDesarrollada con Kotlin, MVVM, SQLite, Retrofit y Glide.</string>
+    <string name="settings_reset_confirm">¿Seguro que quieres reiniciar el álbum? Se borrarán todas tus láminas e intercambios.</string>
+    <string name="settings_reset_done">Álbum reiniciado correctamente</string>
+</resources>

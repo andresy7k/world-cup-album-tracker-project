@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="android.widget.FrameLayout">
+
+    <!-- Track -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/bg_swipe_track" />
+
+    <TextView
+        android:id="@+id/swipeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:fontFamily="@font/inter_semibold"
+        android:gravity="center"
+        android:text="@string/swipe_to_register"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <!-- Draggable thumb -->
+    <FrameLayout
+        android:id="@+id/swipeThumb"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/bg_swipe_thumb">
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/action_confirm"
+            android:src="@drawable/ic_arrow_forward"
+            app:tint="@color/primary" />
+    </FrameLayout>
+</merge>
