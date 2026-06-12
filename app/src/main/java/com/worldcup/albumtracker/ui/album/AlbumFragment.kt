@@ -104,7 +104,7 @@ class AlbumFragment : Fragment() {
         viewModel.stickers.observe(viewLifecycleOwner) { stickers ->
             adapter.submitList(stickers)
             val isEmpty = stickers.isEmpty()
-            binding.emptyState.visibility = if (isEmpty) View.VISIBLE else View.GONE
+            binding.emptyState.root.visibility = if (isEmpty) View.VISIBLE else View.GONE
             binding.recyclerStickers.visibility = if (isEmpty) View.GONE else View.VISIBLE
         }
     }

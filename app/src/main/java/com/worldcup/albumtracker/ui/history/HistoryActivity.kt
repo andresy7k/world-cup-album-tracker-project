@@ -36,7 +36,7 @@ class HistoryActivity : AppCompatActivity() {
         val trades = app.albumRepository.getAllTrades()
         adapter.submitList(trades)
         val empty = trades.isEmpty()
-        binding.emptyState.visibility = if (empty) View.VISIBLE else View.GONE
+        binding.emptyState.root.visibility = if (empty) View.VISIBLE else View.GONE
         binding.recyclerTrades.visibility = if (empty) View.GONE else View.VISIBLE
     }
 

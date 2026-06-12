@@ -23,8 +23,8 @@
         <item name="android:windowLightStatusBar">false</item>
 
         <!-- Tipografía global tipo Apple (Inter) -->
-        <item name="fontFamily">@font/inter</item>
-        <item name="android:fontFamily">@font/inter</item>
+        <!-- <item name="fontFamily">@font/inter</item> -->
+        <!-- <item name="android:fontFamily">@font/inter</item> -->
     </style>
 
     <!-- Tema del Splash -->
@@ -35,22 +35,22 @@
 
     <!-- Estilos de texto -->
     <style name="TextAppearance.Display" parent="TextAppearance.Material3.HeadlineLarge">
-        <item name="fontFamily">@font/inter_bold</item>
-        <item name="android:fontFamily">@font/inter_bold</item>
+        <!-- <item name="fontFamily">@font/inter_bold</item> -->
+        <!-- <item name="android:fontFamily">@font/inter_bold</item> -->
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:letterSpacing">-0.02</item>
     </style>
 
     <style name="TextAppearance.Title" parent="TextAppearance.Material3.TitleLarge">
-        <item name="fontFamily">@font/inter_semibold</item>
-        <item name="android:fontFamily">@font/inter_semibold</item>
+        <!-- <item name="fontFamily">@font/inter_semibold</item> -->
+        <!-- <item name="android:fontFamily">@font/inter_semibold</item> -->
         <item name="android:textColor">@color/text_primary</item>
         <item name="android:letterSpacing">-0.01</item>
     </style>
 
     <style name="TextAppearance.Body" parent="TextAppearance.Material3.BodyMedium">
-        <item name="fontFamily">@font/inter</item>
-        <item name="android:fontFamily">@font/inter</item>
+        <!-- <item name="fontFamily">@font/inter</item> -->
+        <!-- <item name="android:fontFamily">@font/inter</item> -->
         <item name="android:textColor">@color/text_secondary</item>
     </style>
 
@@ -65,7 +65,7 @@
 
     <!-- Botón principal -->
     <style name="Widget.Album.Button" parent="Widget.Material3.Button">
-        <item name="android:fontFamily">@font/inter_semibold</item>
+        <!-- <item name="android:fontFamily">@font/inter_semibold</item> -->
         <item name="cornerRadius">16dp</item>
         <item name="android:paddingTop">14dp</item>
         <item name="android:paddingBottom">14dp</item>
@@ -81,7 +81,7 @@
 
     <!-- Apariencia de texto de las pestañas del álbum -->
     <style name="TabTextAppearance" parent="TextAppearance.Material3.TitleSmall">
-        <item name="android:fontFamily">@font/inter_semibold</item>
+        <!-- <item name="android:fontFamily">@font/inter_semibold</item> -->
         <item name="android:textSize">13sp</item>
         <item name="android:textAllCaps">false</item>
     </style>

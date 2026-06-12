@@ -18,7 +18,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/inter_bold"
+            
             android:letterSpacing="-0.02"
             android:text="@string/stats_title"
             android:textColor="@color/text_primary"
@@ -45,7 +45,7 @@
                     android:id="@+id/txtPercent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_bold"
+                    
                     android:letterSpacing="-0.03"
                     android:text="0%"
                     android:textColor="@color/white"
@@ -54,7 +54,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    
                     android:letterSpacing="0.04"
                     android:text="@string/dashboard_progress"
                     android:textColor="#E8D5F0"
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:fontFamily="@font/inter_semibold"
+            
             android:text="@string/stats_top_countries"
             android:textColor="@color/text_primary"
             android:textSize="17sp" />

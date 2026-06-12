@@ -45,7 +45,7 @@
                     android:id="@+id/inputNumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
+                    
                     android:inputType="number"
                     android:maxLines="1"
                     android:textColor="@color/text_primary" />
@@ -56,7 +56,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="56dp"
                 android:layout_marginStart="10dp"
-                android:fontFamily="@font/inter_semibold"
+                
                 android:insetTop="0dp"
                 android:insetBottom="0dp"
                 android:text="@string/action_search"
@@ -88,7 +88,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_badge"
-                    android:fontFamily="@font/inter_semibold"
+                    
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="4dp"
                     android:text="N° 1"
@@ -100,7 +100,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
-                    android:fontFamily="@font/inter_bold"
+                    
                     android:text="Jugador"
                     android:textColor="@color/text_primary"
                     android:textSize="24sp" />
@@ -110,7 +110,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="2dp"
-                    android:fontFamily="@font/inter"
+                    
                     android:text="País"
                     android:textColor="@color/text_secondary"
                     android:textSize="15sp" />
@@ -120,7 +120,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="@font/inter_semibold"
+                    
                     android:text="@string/register_status_new"
                     android:textColor="@color/success"
                     android:textSize="14sp" />
@@ -132,7 +132,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:fontFamily="@font/inter"
+            
             android:gravity="center"
             android:padding="24dp"
             android:text="@string/register_not_found"

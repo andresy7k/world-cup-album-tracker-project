@@ -30,7 +30,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_semibold"
                     android:text="@string/trade_given_short"
                     android:textColor="@color/error"
                     android:textSize="12sp" />
@@ -42,7 +41,6 @@
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
                     android:ellipsize="end"
-                    android:fontFamily="@font/inter"
                     android:maxLines="1"
                     android:text="N° 1 - Jugador"
                     android:textColor="@color/text_primary"
@@ -59,7 +57,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_semibold"
                     android:text="@string/trade_received_short"
                     android:textColor="@color/success"
                     android:textSize="12sp" />
@@ -71,7 +68,6 @@
                     android:layout_marginStart="6dp"
                     android:layout_weight="1"
                     android:ellipsize="end"
-                    android:fontFamily="@font/inter"
                     android:maxLines="1"
                     android:text="N° 2 - Jugador"
                     android:textColor="@color/text_primary"
@@ -83,7 +79,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:fontFamily="@font/inter"
                 android:text="01/01/2026"
                 android:textColor="@color/text_secondary"
                 android:textSize="12sp" />

@@ -38,7 +38,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
                     android:text="@string/dashboard_title"
                     android:textColor="@color/text_secondary"
                     android:textSize="13sp" />
@@ -46,7 +45,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter_bold"
                     android:letterSpacing="-0.02"
                     android:text="@string/app_name_short"
                     android:textColor="@color/text_primary"
@@ -73,7 +71,6 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/inter"
                     android:letterSpacing="0.04"
                     android:text="@string/dashboard_progress"
                     android:textColor="#E8D5F0"
@@ -84,7 +81,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
-                    android:fontFamily="@font/inter_bold"
                     android:letterSpacing="-0.03"
                     android:text="0%"
                     android:textColor="@color/white"
@@ -106,7 +102,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
-                    android:fontFamily="@font/inter"
                     android:text=""
                     android:textColor="#E8D5F0"
                     android:textSize="13sp" />
@@ -150,7 +145,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:fontFamily="@font/inter_semibold"
             android:text="@string/dashboard_quick_actions"
             android:textColor="@color/text_primary"
             android:textSize="17sp" />
@@ -193,7 +187,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_weight="1"
-                        android:fontFamily="@font/inter_semibold"
                         android:text="@string/register_sticker"
                         android:textColor="@color/white"
                         android:textSize="14sp" />
@@ -234,7 +227,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_weight="1"
-                        android:fontFamily="@font/inter_semibold"
                         android:text="@string/trade_title"
                         android:textColor="@color/text_primary"
                         android:textSize="14sp" />
@@ -274,7 +266,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_weight="1"
-                    android:fontFamily="@font/inter_semibold"
                     android:text="@string/trade_history"
                     android:textColor="@color/text_primary"
                     android:textSize="14sp" />
@@ -293,7 +284,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
-            android:fontFamily="@font/inter_semibold"
             android:text="@string/dashboard_recent"
             android:textColor="@color/text_primary"
             android:textSize="17sp" />
@@ -312,7 +302,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            android:fontFamily="@font/inter"
             android:gravity="center"
             android:padding="24dp"
             android:text="@string/empty_obtained"
